@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
-    <meta name="description" content="Mis Prime — o app de agendamento e gestão do seu salão, com o nome da sua empresa + Prime. US$ 14,99 por colaboradora/mês." />
+    <meta name="description" content="Mis Prime — o app de agendamento e gestão do seu salão, com o nome da sua empresa + Prime. US$ 29,90 por colaboradora/mês." />
     <link rel="icon" href="data:," />
     <title>Mis Prime — O app do seu salão com o seu nome + Prime</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -323,7 +323,7 @@
             </a>
             <a class="btn btn-ghost" href="#preco">Ver o preço</a>
           </div>
-          <p class="hero-note"><b>US$ 14,99 por colaboradora/mês</b> — quem paga é a dona do salão. A colaboradora não paga nada.</p>
+          <p class="hero-note"><b>US$ 29,90 por colaboradora/mês</b> — quem paga é a dona do salão. A colaboradora não paga nada.</p>
         </div>
 
         <div class="phone-col">
@@ -551,7 +551,7 @@
         </div>
 
         <div class="price-card reveal">
-          <div class="price-big">US$ 14<small>,99</small></div>
+          <div class="price-big">US$ 29<small>,90</small></div>
           <p class="price-per">por colaboradora / mês · <b>quem paga é a dona do salão</b></p>
 
           <div class="calc">
@@ -561,7 +561,7 @@
             <input type="range" id="calcRange" min="1" max="12" step="1" value="3" aria-describedby="calcTotal" />
             <div class="res">
               <span>Total por mês</span>
-              <b id="calcTotal">US$ 44,97</b>
+              <b id="calcTotal">US$ 89,70</b>
             </div>
           </div>
 
@@ -666,7 +666,7 @@
         function calc(){
           var n = parseInt(range.value, 10);
           count.textContent = n + (n === 1 ? " colaboradora" : " colaboradoras");
-          total.textContent = money(n * 14.99);
+          total.textContent = money(n * 29.90);
         }
         range.addEventListener("input", calc);
         calc();
